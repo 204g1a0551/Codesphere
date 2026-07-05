@@ -1,1 +1,13 @@
-<p>main-layout works!</p>
+<div class="layout-shell">
+	<app-header></app-header>
+
+	<div class="layout-shell__body">
+		<app-sidebar></app-sidebar>
+
+		<main class="layout-shell__content">
+			<router-outlet></router-outlet>
+		</main>
+	</div>
+
+	<app-footer></app-footer>
+</div>

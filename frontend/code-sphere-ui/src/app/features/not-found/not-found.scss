@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+
+.not-found {
+  min-height: calc(100dvh - 5rem);
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.not-found__card {
+  max-width: 28rem;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid var(--app-border);
+  border-radius: 1.25rem;
+  background: var(--app-surface);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+  text-align: center;
+}
+
+.not-found__eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--app-primary);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.not-found__card h1 {
+  margin: 0;
+}
+
+.not-found__card p {
+  color: var(--app-text-muted);
+}
+
+.not-found__link {
+  display: inline-flex;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.8rem;
+  background: var(--app-primary);
+  color: white;
+  text-decoration: none;
+}

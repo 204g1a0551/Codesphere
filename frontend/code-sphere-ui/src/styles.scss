@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+	--app-background: #f8fafc;
+	--app-surface: #ffffff;
+	--app-surface-strong: #e2e8f0;
+	--app-text: #0f172a;
+	--app-text-muted: #475569;
+	--app-primary: #2563eb;
+	--app-primary-strong: #1d4ed8;
+	--app-border: rgba(15, 23, 42, 0.12);
+	--app-font-family: Inter, Avenir, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	background:
+		radial-gradient(circle at top, rgba(37, 99, 235, 0.08), transparent 35%),
+		var(--app-background);
+	color: var(--app-text);
+	font-family: var(--app-font-family);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+}

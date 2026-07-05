@@ -1,0 +1,37 @@
+:host {
+	display: block;
+}
+
+.app-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+	background: rgba(7, 17, 31, 0.88);
+	backdrop-filter: blur(14px);
+	color: #f8fafc;
+}
+
+.app-header__brand {
+	display: flex;
+	align-items: center;
+	gap: 0.9rem;
+}
+
+.app-header__logo {
+	display: inline-grid;
+	place-items: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.75rem;
+	background: linear-gradient(135deg, #38bdf8 0%, #2563eb 100%);
+	color: white;
+	font-weight: 700;
+}
+
+.app-header__brand p {
+	margin: 0.15rem 0 0;
+	font-size: 0.85rem;
+	color: rgba(226, 232, 240, 0.72);
+}
